@@ -1,0 +1,56 @@
+.main-content {
+  width: 100%;
+  max-height: 140vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: aliceblue;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 2%;
+}
+
+.usersData {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logout {
+  width: 10%;
+  border-radius: 50px;
+  position: absolute;
+  margin: 2%;
+  top: 0px;
+  right: 0px;
+}
+.data {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.edit {
+  width: 20%;
+}
+.contrast {
+  width: 20%;
+  align-self: center;
+}
+.editForm {
+  display: flex;
+  justify-content: space-between;
+  gap: 10%;
+  color: #11191f;
+}
+.intro {
+  font-size: 1rem;
+  font-style: italic;
+}
